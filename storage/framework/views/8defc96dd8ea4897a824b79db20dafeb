@@ -1,0 +1,15 @@
+<?php $__env->startSection('content'); ?>
+    <h1> contact</h1>
+<?php $__env->stopSection(); ?>
+<!--
+/**
+ * Created by PhpStorm.
+ * User: leni
+ * Date: 18-6-30
+ * Time: 上午1:53
+ */
+-->
+<?php $__env->startSection('footer'); ?>
+    <script>alert('contact page');</script>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

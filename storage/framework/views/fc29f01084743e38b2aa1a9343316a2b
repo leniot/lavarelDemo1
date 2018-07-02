@@ -1,0 +1,14 @@
+<?php $__env->startSection('content'); ?>
+    <h1>Articles</h1>
+    <hr>
+
+        <article>
+            <div class="body">
+                <?php echo e($article->content); ?>
+
+
+            </div>
+        </article>
+
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('app', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>

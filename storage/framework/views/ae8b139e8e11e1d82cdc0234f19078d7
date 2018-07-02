@@ -1,0 +1,24 @@
+
+
+<div class="form-group">
+    <?php echo Form::label('title'); ?>
+
+    <?php echo Form::text('title',null,['class'=>'form-control']); ?>
+
+    <?php /*title=输入；text元素的id为title，null为默认参数、后面是为 imput--text 元素赋属性值*/ ?>
+</div>
+<div class="form-group">
+    <?php echo Form::label('content','Content:'); ?>
+
+    <?php echo Form::textarea('content',null,['class'=>'form-control']); ?>
+
+
+</div>
+<div class="form-group">
+    <?php echo Form::label('publish_at','Published_at'); ?>
+
+    <?php echo Form::input('date','publish_at',date('Y-m-d'),['class'=>'form-control']); ?>
+
+
+</div>
+<?php echo Form::submit('发表文章',['class'=>'btn btn-primary form-control']); ?>
